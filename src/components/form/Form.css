@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&family=Yanone+Kaffeesatz:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+
+:root {
+    --snow:#f1f1f1;
+    --secundaria:#1C1C1C;
+    --btn:#B22222;
+}
+input:focus{
+    outline: 0;
+}
+
+.pesquisar{
+    width: auto;
+    max-width: 700px;
+    background: var(--secundaria);
+    height: auto;
+    padding: 30px 0;
+    text-align: center;
+    color: #fff;
+    margin: 0 auto;
+}
+.pesquisar h3{
+    font-weight: 300;
+}
+
+.pesquisar button{
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+.pesquisar input{
+    width: 300px;
+    height: auto;
+    height: 36px;
+    border: none;
+    padding: 0 5px;
+}
+
+.itens{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+.itens ul{
+    list-style: none;
+    display: block;
+}
+.itens ul li{
+    text-align: center;
+}
+
+.central{
+    display: flex;
+    justify-content: center;
+}
+
+.nome-repo{
+    width: auto;
+    max-width: 250px;
+    font-weight: 800;
+    cursor: pointer;
+    font-weight: 600;
+    padding: 10px 5px;
+}
+.nome-repo button{
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.nome-repo button span{
+    font-size: .8rem;
+}
+
+
+.logo{
+    display: block;
+    margin: 0 auto 50px;
+    width: 200px;
+}
+@media (max-width: 700px){
+    .submit-form input{
+        width: 300px;
+    }
+    .content-form{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .resultado{
+        width: 90%;
+        margin: 0 auto;
+    }
+}
